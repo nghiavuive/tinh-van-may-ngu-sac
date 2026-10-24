@@ -1,0 +1,645 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Tinh Vân Mây Ngũ Sắc</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,400;1,400&display=swap');
+
+  :root {
+    --bg: #07070f;
+    --bg2: #10101c;
+    --bg3: #181828;
+    --fg: #eae6f4;
+    --fg-dim: #9890b8;
+    --accent: #c97aff;
+    --accent2: #7ad4ff;
+    --gold: #ffd580;
+    --red: #ff5f5f;
+    --green: #4dffc3;
+    --scene-border: #252040;
+    --tag-bg: #1a1630;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    padding-block: env(safe-area-inset-top, 0px) env(safe-area-inset-bottom, 0px);
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .page { max-width: 740px; margin: 0 auto; padding-block: 52px 88px; }
+
+  /* ── HEADER ── */
+  .film-header { text-align: center; margin-bottom: 60px; }
+  .film-header .eyebrow {
+    font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700; margin-bottom: 18px;
+  }
+  .film-header h1 {
+    font-size: clamp(26px, 6vw, 46px); font-weight: 900; line-height: 1.1;
+    text-wrap: balance;
+    background: linear-gradient(135deg, var(--accent2) 0%, var(--accent) 50%, var(--gold) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 10px;
+  }
+  .film-header .sub { color: var(--fg-dim); font-size: 13px; letter-spacing: .04em; }
+  .film-header .divider {
+    width: 44px; height: 2px; margin: 18px auto 0;
+    background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 2px;
+  }
+
+  /* ── SCENE ── */
+  .scene { margin-bottom: 44px; }
+  .scene-head {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 22px;
+  }
+  .scene-icon { font-size: 17px; flex-shrink: 0; }
+  .scene-label {
+    font-size: 10px; font-weight: 800; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--accent); white-space: nowrap;
+  }
+  .scene-rule { flex: 1; height: 1px; background: var(--scene-border); }
+  .scene-body { display: flex; flex-direction: column; gap: 13px; }
+
+  /* ── ACTION / DIRECTION ── */
+  .action {
+    font-family: 'Crimson Pro', serif; font-size: 16px;
+    color: var(--fg-dim); font-style: italic;
+  }
+  .action strong { color: var(--fg); font-style: normal; font-weight: 700; }
+
+  /* ── TECH NOTES ── */
+  .tech {
+    display: flex; gap: 8px; align-items: flex-start;
+    background: var(--bg2); border-radius: 8px;
+    padding: 10px 14px; font-size: 13px;
+  }
+  .tech-badge {
+    font-size: 9px; font-weight: 800; letter-spacing: .14em;
+    text-transform: uppercase; padding: 2px 7px; border-radius: 20px;
+    flex-shrink: 0; margin-top: 2px;
+  }
+  .tech.vfx .tech-badge { background: #1a0d35; color: var(--accent); }
+  .tech.sfx .tech-badge { background: #0d1a30; color: var(--accent2); }
+  .tech-text { color: var(--fg-dim); line-height: 1.5; }
+
+  /* ── DIALOGUE ── */
+  .dialogue {
+    background: var(--bg2); border-left: 3px solid var(--scene-border);
+    border-radius: 0 9px 9px 0; padding: 12px 16px;
+  }
+  .dialogue.nghia { border-left-color: var(--accent); }
+  .dialogue.tuan  { border-left-color: var(--accent2); }
+  .dialogue.hung  { border-left-color: var(--red); }
+
+  .speaker {
+    font-size: 10px; font-weight: 800; letter-spacing: .14em;
+    text-transform: uppercase; margin-bottom: 5px;
+  }
+  .nghia .speaker { color: var(--accent); }
+  .tuan  .speaker { color: var(--accent2); }
+  .hung  .speaker { color: var(--red); }
+
+  .age-tag {
+    display: inline-block; font-size: 9px; font-weight: 700;
+    letter-spacing: .07em; padding: 1px 6px; border-radius: 20px;
+    vertical-align: middle; margin-left: 5px;
+  }
+  .age-nghia { background: #2a1040; color: var(--accent); }
+  .age-tuan  { background: #0a1a2e; color: var(--accent2); }
+
+  .line { font-size: 15px; }
+  .shout { font-weight: 700; font-size: 15.5px; }
+  .whisper { font-style: italic; color: var(--fg-dim); }
+  .dir { font-size: 13px; color: var(--fg-dim); font-style: italic; margin-bottom: 4px; }
+
+  /* ── COUNTDOWN TENSION BLOCK ── */
+  .tension-block {
+    background: linear-gradient(135deg, #150820, #081420);
+    border: 1px solid #3a2060; border-radius: 14px;
+    padding: 20px 18px; display: flex; flex-direction: column; gap: 13px;
+  }
+  .countdown {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 11px; font-weight: 800; letter-spacing: .12em;
+    color: var(--red); text-transform: uppercase;
+  }
+  .countdown-bar {
+    flex: 1; height: 5px; background: #2a1040; border-radius: 3px; overflow: hidden;
+  }
+  .countdown-fill { height: 100%; border-radius: 3px; background: var(--red); }
+  .countdown-fill.critical { background: #ff2020; }
+
+  /* ── CAPTION / NOTE ── */
+  .caption {
+    font-size: 12.5px; color: var(--fg-dim); font-style: italic;
+    padding: 8px 13px; background: var(--tag-bg); border-radius: 7px;
+  }
+  .caption strong { color: var(--green); font-style: normal; }
+
+  /* ── REVEAL ── */
+  .reveal-block {
+    background: var(--bg2); border: 1px solid var(--scene-border);
+    border-radius: 12px; padding: 20px 22px;
+    display: flex; flex-direction: column; gap: 9px;
+  }
+  .reveal-block .rlabel {
+    font-size: 9px; font-weight: 800; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--red); margin-bottom: 4px;
+  }
+  .reveal-block p { font-size: 14px; color: var(--fg-dim); }
+  .reveal-block p strong { color: var(--fg); }
+
+  /* ── ENDING ── */
+  .ending-card {
+    background: linear-gradient(135deg, #0a162a, #160a2a);
+    border: 1px solid #2a3560; border-radius: 18px;
+    padding: 30px 24px; display: flex; flex-direction: column; gap: 18px; text-align: center;
+  }
+  .ending-card .etitle {
+    font-size: 17px; font-weight: 800;
+    background: linear-gradient(135deg, var(--accent2), var(--accent), var(--gold));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .ending-names { display: flex; flex-direction: column; gap: 10px; }
+  .ending-name { font-size: 13.5px; color: var(--fg-dim); }
+  .ending-name strong { color: var(--fg); font-weight: 700; }
+  .fin { font-size: 20px; font-weight: 900; letter-spacing: .1em; color: var(--gold); margin-top: 6px; }
+</style>
+
+<div class="page">
+
+  <header class="film-header">
+    <div class="eyebrow">Kịch bản Production · Năm 2036 · Hà Nội Orbital</div>
+    <h1>🌟 Tinh Vân Mây Ngũ Sắc</h1>
+    <p class="sub">Phim hoạt hình ngắn · Bản đầy đủ VFX / SFX</p>
+    <div class="divider"></div>
+  </header>
+
+  <!-- ═══ CẢNH 1 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">💻</span>
+      <span class="scene-label">Cảnh 1 — Phòng làm việc · Ban ngày</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <p class="action">Căn phòng lộn xộn. Các khối dữ liệu và màn hình ảo lơ lửng trong không khí. Dây cáp chằng chịt.</p>
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Ánh sáng neon xanh le lói hắt lên mặt <strong>Nghĩa</strong> <span class="age-tag age-nghia">11 tuổi</span> đang ngồi trên xe lăn điện gắn hai cánh tay máy. Góc phòng, <strong>Tuấn</strong> <span class="age-tag age-tuan">10 tuổi</span> đang loay hoay với chiếc drone tự chế phát tia lửa điện nhỏ.</span></div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng gõ bàn phím ảo "tách tách" nhanh như gió, tiếng "xoẹt xoẹt" từ mối hàn của Tuấn.</span></div>
+      <p class="action">Tuấn nhìn chằm chằm vào mạch điện, nhíu mày — rồi đổi lại cách nối hai sợi dây. Drone khẽ rù lên, cánh quạt quay được một vòng trước khi dừng. Tuấn gật đầu một cái, tự hài lòng.</p>
+      <p class="action">Nghĩa đập mạnh tay máy xuống bàn <em>(SFX: RẦM!)</em>.</p>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">ĐÚNG RỒI! NÓ ĐÂY RỒI! TINH VÂN MÂY NGŨ SẮC! Nguồn năng lượng sạch vô tận — và bằng chứng hắn đã chôn vùi nó suốt mười năm.</div>
+      </div>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="line">Chúng tớ làm gì có tàu để đi?</div>
+      </div>
+      <p class="action">Nghĩa gõ thêm vài giây. Dừng lại. Xoay xe lăn vút một cái sang nhìn Tuấn.</p>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Đợi tý, gõ mỏi vãi lực hấp dẫn... <span class="shout">Hãy trộm tàu.</span> Vì đây không chỉ là khám phá — mà là trả lại thứ thuộc về tất cả mọi người.</div>
+      </div>
+      <p class="action">Hai đứa nhìn nhau im lặng 2 giây.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng quạt gió kêu vù vù cắt ngang sự im lặng.</span></div>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="line">Ừ thôi. Tớ vẫn thích nghịch drone hơn.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH 2 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">🌙</span>
+      <span class="scene-label">Cảnh 2 — Bãi chứa tàu · Đêm khuya</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Trạm không gian Hà Nội Orbital hiện lên tầm xa với những ánh đèn neon lập lòe. Ánh sáng vàng của đèn pha lính canh quét dọc màn hình.</span></div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng gió rít cơ học yếu ớt. Tiếng bánh xe cao su của Nghĩa lăn "vút vút" cực êm.</span></div>
+      <p class="action">Đèn pha lính canh quét qua. Nghĩa nhanh như chớp dùng cánh tay máy kéo Tuấn vào bụi rậm, bịt miệng Tuấn lại.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng bước chân bọc thép nặng nề — Cộp... Cộp... — xa dần.</span></div>
+      <p class="action">Lính đi qua. Nghĩa buông tay.</p>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="dir">(thì thầm, mặt tím tái)</div>
+        <div class="line">Bạn bóp tớ gần không trở về rồi đó biết không—</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="dir">(thì thầm, hoàn toàn nghiêm túc)</div>
+        <div class="line">Bạn có mang đồ ăn không?</div>
+      </div>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="dir">(nhìn Nghĩa chằm chằm)</div>
+        <div class="line">...Đi thôi.</div>
+      </div>
+      <p class="action">Hai đứa lao thẳng vào khoang lái. Nghĩa cắm chìa khóa kỹ thuật số vào ổ.</p>
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Vòng tròn dữ liệu quét mã chạy vòng quanh ổ khóa.</span></div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Động cơ rít lên: NGHÉO NGHÉO NGHÉO NGHÉO— Đèn báo động đỏ chớp liên tục khắp bãi tàu.</span></div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">CÁI QUÁI TINH TÚ GÌ VẬY! RUN!</div>
+      </div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng súng la-ze nạp đạn — Chéo! Chéo! Tàu đánh võng né trái né phải. Loạt đạn năng lượng xé rách không khí trước khi tàu phóng thẳng ra ngoài tầng khí quyển.</span></div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH 3 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">☄️</span>
+      <span class="scene-label">Cảnh 3 — Vùng thiên thạch · 5 tiếng sau</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <p class="action">Không gian vũ trụ tối om. Yên tĩnh được vài giây.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Màn hình radar bật lên hàng loạt chấm đỏ — tít tít tít dồn dập.</span></div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">NÉ ĐI TUẤN! TRÁI — PHẢI — DƯỚI — TRÊN — DƯỚI — TRÁI! HỎNG TÀU À! BRUH!</div>
+      </div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">BÙMMM! Một thiên thạch cỡ lớn va quẹt vào hông tàu.</span></div>
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Màn hình hiện chữ đỏ nhấp nháy: <strong>CRITICAL SYSTEM FAILURE</strong>. Trọng lực mất, đồ vật và Tuấn bắt đầu bay lơ lửng.</span></div>
+
+      <!-- TENSION -->
+      <div class="tension-block">
+        <div class="countdown">
+          <span>⚠ Va chạm</span>
+          <div class="countdown-bar"><div class="countdown-fill" style="width:100%"></div></div>
+          <span>120s</span>
+        </div>
+        <p class="action">Nghĩa dùng hai cánh tay máy đu bám bục điều khiển như leo thang.</p>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line shout">TUẤN! KHOANG KỸ THUẬT — BÊN PHẢI! ĐI!</div>
+        </div>
+        <p class="action">Tuấn mở nắp khoang. Bên trong tối om, chằng chịt hàng trăm sợi dây cáp màu ĐỎ, XANH, VÀNG, TRẮNG, ĐEN.</p>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">Bạn muốn tớ làm gì trong cái tổ chim này?!</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Bó dây cáp chính bị đứt. Phải nối lại THỦ CÔNG. Tớ điều phối từ đây — bạn làm trong đó!</div>
+        </div>
+
+        <div class="countdown">
+          <span>⚠ Va chạm</span>
+          <div class="countdown-bar"><div class="countdown-fill" style="width:75%"></div></div>
+          <span>90s</span>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line shout">OK OK — dây nào?!</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Nối dây đen ý!</div>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line shout">CẢ TÀU DÂY ĐEN MÀ!!!</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="dir">(chớp mắt)</div>
+          <div class="line">À thế à 😅 Ý tớ là — nghe tớ. Tìm bó dây bên tay trái — bó nào to nhất!</div>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">Tớ sờ vào... cái gì đó ẩm ướt. Bạn có chắc tàu này không bị dột không—</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line shout">TẬP TRUNG! Bó dây to nhất tay trái!</div>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">OK — có rồi!</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Trong đó có dây E12. Nhỏ. Bọc nhựa xanh lá pha vàng chanh. Tìm đi!</div>
+        </div>
+
+        <div class="countdown">
+          <span>⚠ Va chạm</span>
+          <div class="countdown-bar"><div class="countdown-fill" style="width:50%"></div></div>
+          <span>60s</span>
+        </div>
+        <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng thiên thạch cọ sát vào vỏ tàu bên ngoài kêu răng rắc rợn người.</span></div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="dir">(giọng run bần bật)</div>
+          <div class="line">Bạn ơi — tớ thấy ba sợi màu giống nhau—</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Sợi nào có vòng băng keo trắng quấn gốc?</div>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">...Sợi giữa!</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Đó là E12. Đừng buông. Bây giờ — tìm E13425675. Bó bên PHẢI. Đầu dây có kẹp kim loại hình chữ L.</div>
+        </div>
+
+        <div class="countdown">
+          <span>⚠ Va chạm</span>
+          <div class="countdown-bar"><div class="countdown-fill critical" style="width:12%"></div></div>
+          <span>30s</span>
+        </div>
+        <p class="action">Tàu giật mạnh, Tuấn cụng đầu vào thành khoang <em>(SFX: CỐP!)</em>. Tuấn nhăn mặt nhưng tay vẫn giữ chặt dây E12.</p>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">ÁI! Kẹp chữ L — đây rồi! <em>(dừng lại)</em> Khoan... nếu nối E12 thẳng vào E13425675 thì sẽ bị quá tải ngay. Phải móc E09 vào giữa làm cầu nối trước.</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="dir">(nhìn lại sơ đồ, mắt mở to)</div>
+          <div class="line">...Đúng. E09 ở bó trái, gần tay bạn. Làm đi.</div>
+        </div>
+        <div class="dialogue tuan">
+          <div class="speaker">Tuấn</div>
+          <div class="line">Có rồi — E09 vào giữa, xong mới nối hai đầu.</div>
+        </div>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line shout">Chính xác. Không được lệch.</div>
+        </div>
+        <p class="action">Nhạc nền bỗng vụt tắt. Chỉ còn tiếng còi hú báo động âm ỉ. Nghĩa đổi giọng — cực kỳ ấm áp và bình tĩnh.</p>
+        <div class="dialogue nghia">
+          <div class="speaker">Nghĩa</div>
+          <div class="line">Tuấn. Bạn làm được. Tớ tin bạn.</div>
+        </div>
+        <p class="action">Tuấn hít một hơi thật sâu, nín thở đưa hai đầu dây chạm vào nhau.</p>
+        <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">PIP!</span></div>
+        <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Đèn toàn tàu đổi từ đỏ sang xanh sáng rực. Màn hình hiện: <strong>SYSTEM RESTORED</strong>. Trọng lực trở lại, Tuấn rơi bịch xuống sàn.</span></div>
+      </div>
+
+      <p class="action">Hai đứa thở dốc như vừa chạy marathon.</p>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="dir">(nằm ngửa trong khoang, giọng cạn kiệt)</div>
+        <div class="line">...Gút gióp chưa?</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="dir">(nhắm mắt, thở phào)</div>
+        <div class="line">Gút gióp. ✅</div>
+      </div>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="dir">(chui ra, tóc bù xù)</div>
+        <div class="line">Đã bảo nghịch drone tự chế dễ hơn mà cứ bắt làm cái khó...</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Drone tự chế không đưa bạn đến Tinh Vân Mây Ngũ Sắc được đâu.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH 4 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">🌈</span>
+      <span class="scene-label">Cảnh 4 — Tinh Vân Mây Ngũ Sắc</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Dải tinh vân khổng lồ cuộn xoáy rực rỡ đủ màu Đỏ, Cam, Vàng, Xanh, Tím. Ở lõi trung tâm, các hạt ánh sáng tự xếp thành hình <strong>Trống đồng Đông Sơn</strong> lấp lánh như vàng ròng. 🇻🇳✨</span></div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="dir">(thì thầm)</div>
+        <div class="line">Đẹp thế...</div>
+      </div>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="dir">(không nhìn màu sắc — nhìn vào cấu trúc)</div>
+        <div class="line">Cái này được tạo ra bằng gì vậy? Áp suất khí, hay phản ứng plasma?</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Tớ không biết. Nhưng tớ biết cái này — <em>(chỉ vào viên pha lê lơ lửng)</em> — chứa thứ người ta muốn giấu.</div>
+      </div>
+      <p class="action">Cánh tay máy của Nghĩa vươn ra ngoài cửa sổ, nhẹ nhàng gắp lấy viên pha lê năng lượng đang lơ lửng. Ánh sáng ngũ sắc phản chiếu lung linh lên mắt hai đứa trẻ.</p>
+      <div class="dialogue tuan">
+        <div class="speaker">Tuấn</div>
+        <div class="line">Trong này có gì vậy?</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Công thức năng lượng sạch — và bằng chứng hắn đã phong ấn nó để một mình kiểm soát. Mười năm không ai được biết.</div>
+      </div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Một bóng đen khổng lồ nuốt chửng ánh sáng tinh vân. Tiếng động cơ trầm đục ÙUUU cực lớn vang lên.</span></div>
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Một chiến hạm to gấp mười lần tàu hai đứa từ từ áp sát, đèn đỏ quét qua như mắt quái thú.</span></div>
+      <p class="action">Cửa chiến hạm hạ xuống. Đại tá Hùng bước ra — không hấp tấp, không kịch tính. Bước chân đều, tay sau lưng, như người đang đi kiểm tra công việc. Phía sau là hai vệ binh, súng chĩa xuống sàn — chưa cần giơ lên.</p>
+      <p class="action">Hùng đứng lại. Nhìn viên pha lê trong tay Nghĩa. Nhìn hai đứa trẻ. Không có gì trên mặt ông ta ngoài sự tính toán.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Đại tá Hùng</div>
+        <div class="dir">(bình thản, như đang xử lý sự cố)</div>
+        <div class="line">Hai đứa. Một xe lăn. Một tàu trộm. Tới đây được là giỏi.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH 5 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">⚔️</span>
+      <span class="scene-label">Cảnh 5 — Đối đầu</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <p class="action">Sảnh đáp không gian. Hùng đứng đó — không giơ súng, không đe dọa. Ông ta chỉ chờ, như người biết mình không cần vội.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="dir">(không phòng thủ — giải thích, như thật sự tin)</div>
+        <div class="line">Nếu ta không làm, sẽ có người khác làm. Và họ có thể chẳng buồn quan tâm ai bị bỏ lại.</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Thế nên ông quyết định thay tất cả mọi người?</div>
+      </div>
+      <p class="action">Hùng nhìn viên pha lê. Ánh sáng ngũ sắc phản chiếu trên gương mặt ông. Trong một thoáng, ông không nhìn nó như một món tài sản — mà như thứ gì đó ông đã dành quá nhiều năm để theo đuổi.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line">Năng lượng vô hạn trong tay nhân loại — ông biết điều gì xảy ra không? Chiến tranh. Vũ khí. Sự hủy diệt nhanh hơn bất kỳ thứ gì từng tồn tại.</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Vậy nên ông lấy luôn quyền lựa chọn của họ?</div>
+      </div>
+      <p class="action">Hùng im lặng.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line">Có người phải đưa ra quyết định.</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Nhưng không có nghĩa người đó luôn đúng.</div>
+      </div>
+      <p class="action">Lần đầu tiên, Hùng không lập tức trả lời. Ông nhìn Nghĩa lâu hơn bình thường, rồi quay đi.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line">Đưa viên pha lê đây. Ta không thể để hàng triệu người phụ thuộc vào lòng tốt của những kẻ ta không biết.</div>
+      </div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Ông không tin họ — vì ông chưa bao giờ cho họ cơ hội để thử.</div>
+      </div>
+      <p class="action">Ánh mắt Hùng lạnh lại.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line">Đủ rồi. Đưa nó đây.</div>
+      </div>
+      <p class="action">Nghĩa đẩy Tuấn lùi lại thật nhanh.</p>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line">Tuấn ơi, lên tàu trước! Giữ pha lê!</div>
+      </div>
+      <p class="action">Tuấn ôm chặt viên pha lê chạy tọt lên tàu an toàn. Nghĩa quay lại, đối mặt với Hùng. Cậu bé bất ngờ chỉ tay ra sau lưng Hùng, mắt mở to hết cỡ.</p>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">UFO KÌA!!!!</div>
+      </div>
+      <p class="action">Đại tá Hùng giật mình quay đầu lại — phản xạ. Không có gì cả.</p>
+      <p class="action">Ngay lập tức, Nghĩa bấm nút điều khiển — cánh tay máy bật ra một nắm đấm đồ chơi lò xo bắn thẳng vào giữa hai chân Đại tá Hùng.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">BỤPP! — khô khốc, theo sau là tiếng lò xo tưng tưng. Sau đó: tiếng chuông chùa ngân một tiếng thanh tĩnh.</span></div>
+      <p class="action">Mặt Đại tá Hùng chuyển từ đỏ sang tái xanh, rồi trắng bệch. Hai đầu gối chụm vào nhau, người gập lại thành hình chữ V.</p>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">CHIẾU TƯỚNG! 💥</div>
+      </div>
+      <p class="action">Nghĩa lao thẳng lên tàu, cửa đóng sầm.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Xoạch! Rầm! Động cơ tàu gầm rú dữ dội.</span></div>
+      <div class="dialogue nghia">
+        <div class="speaker">Nghĩa</div>
+        <div class="line shout">CHÀO THÂN ÁI KHÔNG BAO GIỜ GẶP LẠI DEEEEEEEEEEEE!!! 🚀</div>
+      </div>
+      <p class="action">Tàu bẻ lái cực gắt, xé màn đêm bay thẳng về Trái Đất.</p>
+      <p class="action">Im lặng.</p>
+      <p class="action">Hai tên lính đứng sau nhìn nhau.</p>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="dir">(thì thầm)</div>
+        <div class="line">Đồng chí... mình có nên hỗ trợ đại tá không?</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 2</div>
+        <div class="dir">(cũng thì thầm)</div>
+        <div class="line">Hỗ trợ kiểu gì? Báo cáo là đại tá vừa thua một món đồ chơi à?</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="line">Im đi! Camera chiến hạm đang quay!</div>
+      </div>
+      <p class="action">Lính 1 lặng lẽ đưa tay che ống kính camera chiến hạm. Hùng không quay lại.</p>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="dir">(bình thản)</div>
+        <div class="line">Tôi vẫn thấy đấy.</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="dir">(tay vẫn che camera)</div>
+        <div class="line shout">BÁO CÁO! CAMERA TỰ NHIÊN BỊ LỖI Ạ! 🫡</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="dir">(sau khi tàu Nghĩa biến mất hẳn)</div>
+        <div class="line">Đồng chí… đại tá còn ổn không?</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 2</div>
+        <div class="line">Tôi không biết. Tôi chỉ biết từ hôm nay, chúng ta không được phép nhắc đến chữ UFO.</div>
+      </div>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line shout">TÔI NGHE THẤY ĐẤY.</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: #ff9f9f">Lính 1 + Lính 2</div>
+        <div class="dir">(đứng nghiêm tuyệt đối)</div>
+        <div class="line shout">BÁO CÁO! UFO LÀ KẺ THÙ CỦA ĐẾ QUỐC Ạ!!! 🫡🚀</div>
+      </div>
+      <p class="action">Hai tên lính đứng nghiêm. Hùng lặng lẽ tháo nắm đấm đồ chơi khỏi tay áo, nhìn nó vài giây, rồi bỏ vào túi áo.</p>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="dir">(giọng rất cẩn thận)</div>
+        <div class="line">Thưa đại tá… tang vật có cần niêm phong không ạ?</div>
+      </div>
+      <div class="dialogue hung">
+        <div class="speaker">Hùng</div>
+        <div class="line">Ra ngoài.</div>
+      </div>
+      <div class="dialogue hung" style="border-left-color: var(--accent2)">
+        <div class="speaker" style="color: var(--accent2)">Lính 1</div>
+        <div class="line shout">RÕ!</div>
+      </div>
+      <p class="action">Hai lính chạy biến. Hùng đứng lại một mình giữa tinh vân rực rỡ.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Boing.</span></div>
+      <p class="action">Hùng nhắm mắt.</p>
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">CẮT ĐEN.</span></div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH 6 ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">⚖️</span>
+      <span class="scene-label">Cảnh 6 — Sự thật được phanh phui</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <div class="tech vfx"><span class="tech-badge">VFX</span><span class="tech-text">Các màn hình hologram tin tức toàn cầu đồng loạt phát sóng. Hình ảnh viên pha lê được giải mã dữ liệu. Trái Đất hiển thị trên bản đồ 3D từ màu xám ô nhiễm dần chuyển sang màu xanh lục hồi phục.</span></div>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Tiếng phát thanh viên đọc tin tức dồn dập, tiếng reo hò của người dân ở các đô thị tương lai.</span></div>
+      <div class="reveal-block">
+        <div class="rlabel">🔓 Hồ sơ mật — Tinh Vân Mây Ngũ Sắc</div>
+        <p>Tinh Vân Mây Ngũ Sắc chứa nguồn năng lượng sạch vô tận — đủ để chấm dứt khủng hoảng năng lượng toàn cầu và đảo ngược biến đổi khí hậu. Lõi năng lượng mang hình Trống Đồng Đông Sơn — dấu ấn của nguồn cội Trái Đất.</p>
+        <p>Đại tá Hùng không tin nhân loại đủ trưởng thành để sử dụng năng lượng vô hạn mà không tự hủy. Ông một mình phong ấn sự thật — không vì tiền, mà vì tin rằng chỉ mình ông đủ khả năng quyết định. Mười năm ông mang nó lên vũ trụ, nhốt nó lại — trong khi Trái Đất bên dưới chìm trong khủng hoảng.</p>
+        <p><strong>Kết quả:</strong> Hùng bị cách chức. Sự thật được công bố toàn cầu. Năng lượng sạch được khai thác. Trái Đất bắt đầu hồi phục.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CẢNH CUỐI ═══ -->
+  <section class="scene">
+    <div class="scene-head">
+      <span class="scene-icon">🌅</span>
+      <span class="scene-label">Cảnh cuối — Hoàng hôn · Hà Nội Orbital</span>
+      <div class="scene-rule"></div>
+    </div>
+    <div class="scene-body">
+      <p class="action">Trên sân thượng một tòa nhà chọc trời tại Hà Nội Orbital, hoàng hôn buông xuống nhuộm đỏ không gian. Tuấn đứng đón gió, tay điều khiển chiếc drone tự chế bay lượn cực kỳ mượt mà, không còn loạng choạng. Nghĩa ngồi trên xe lăn mỉm cười nhìn ra từ cửa sổ lớn. Hai người không nói gì — ánh mắt đầy tự hào.</p>
+      <div class="tech sfx"><span class="tech-badge">SFX</span><span class="tech-text">Nhạc nền nổi lên hùng tráng rồi nhỏ dần.</span></div>
+
+      <div class="ending-card">
+        <div class="etitle">🌟 Hai đứa trẻ thay đổi thế giới</div>
+        <div class="ending-names">
+          <div class="ending-name"><strong>Nghĩa</strong> — Kỹ sư vũ trụ nhỏ tuổi nhất lịch sử.</div>
+          <div class="ending-name"><strong>Tuấn</strong> — Nhà thiết kế tàu nhỏ tuổi nhất lịch sử.</div>
+        </div>
+        <div class="fin">HẾT 🚀</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+</body></html>
